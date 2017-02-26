@@ -1,0 +1,8 @@
+select count(*) AS Number of  FROM class6.todos;
+
+select * FROM class6.todos where Done = 1;
+
+select * FROM class6.todos where Done = 0;
+select * FROM class6.todos ORDER BY ID DESC;
+SELECT * FROM class6.todos ORDER BY ID DESC LIMIT 1;
+SELECT * FROM class6.todos WHERE Name LIKE '%database%';
